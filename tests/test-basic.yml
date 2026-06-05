@@ -16,11 +16,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Assert created output is set
         env:
-          ACTUAL: ${{ steps.action.outputs.created }}
+          CREATED: ${{ steps.action.outputs.created }}
         run: |
-          echo "actual: $ACTUAL"
-          if [ -z "$ACTUAL" ]; then
-            echo "FAIL: expected 'created' output to be set"
+          echo "created: $CREATED"
+          if [ -z "$CREATED" ]; then
+            echo "FAIL: expected 'created' output to be non-empty"
             exit 1
           fi
-          echo "PASS: created=$ACTUAL"
+          echo "PASS: created=$CREATED"
