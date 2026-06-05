@@ -1,0 +1,7 @@
+{
+  "ran": true,
+  "passed": true,
+  "output": "\n\u003e javascript-template-action@0.0.0 test\n\u003e jest\n\nPASS __tests__/create-branch.test.ts\n  Create a branch based on the input\n    ✓ gets a branch (3 ms)\n    ✓ Creates a new branch if not already there (1 ms)\n    ✓ Creates a new branch from a given commit SHA (1 ms)\n    ✓ Replaces refs/heads in branch name\n    ✓ Fails if github token isn't defined (1 ms)\n\nTest Suites: 1 passed, 1 total\nTests:       5 passed, 5 total\nSnapshots:   0 total\nTime:        1.991 s\nRan all test suites.\n",
+  "duration_ms": 2798,
+  "exit_code": 0
+}
