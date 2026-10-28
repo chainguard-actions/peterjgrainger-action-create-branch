@@ -6,9 +6,9 @@ Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at
 
 ## Versions
 
-| Version | Tag | Upstream commit |
-|---------|-----|-----------------|
-| v4.0.0 | [`v4.0.0`](https://github.com/chainguard-actions/peterjgrainger-action-create-branch/tree/v4.0.0) | [`4b81ce6`](https://github.com/peterjgrainger/action-create-branch/commit/4b81ce657e255acd677cc6c55c9c763654be3aef) |
+| Version | Tag | Upstream commit | Hardening report |
+|---------|-----|-----------------|------------------|
+| v4.0.0 | [`v4.0.0`](https://github.com/chainguard-actions/peterjgrainger-action-create-branch/tree/v4.0.0) | [`4b81ce6`](https://github.com/peterjgrainger/action-create-branch/commit/4b81ce657e255acd677cc6c55c9c763654be3aef) | [`HARDENING.md`](https://github.com/chainguard-actions/peterjgrainger-action-create-branch/blob/v4.0.0/HARDENING.md) |
 
 ## Privacy
 
